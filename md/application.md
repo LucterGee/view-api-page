@@ -123,7 +123,7 @@ export default class MyApplication extends Application {
 
 #### 进入app的模式
 
-默认情况，app会根据cookie中保存的信息自行判断使用那种模式进入，但在一些特殊请款下，cookie中的数据未被正常处理
+默认情况，app会根据cookie中保存的信息自行判断使用那种模式进入，但在一些特殊情况下，cookie中的数据未被正常处理
 * 直接关闭盒子
 * 按home键，返回盒子首页
 * 异常退出
