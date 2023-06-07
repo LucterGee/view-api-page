@@ -3,6 +3,7 @@
 * 在原生js基础上开发的针对EPG的交互框架
 * 参考了android的Application和activity实现整个页面的交互及生命周期
 * 使用webpack打包
+* 在线地址：http://kanchenai.gitee.io/view_page
 
 ## 起步
 
