@@ -57,3 +57,20 @@
 ```
 
 注：这里id为focus的节点，需要设置固定宽高，这个<span style="color:red;">宽高会设置到poster中</span>，poster的图片、文字宽高不变，但会<span style="color:red;">居中</span>
+
+* 定制文字
+
+在poster中定义一个<span style="color:red;">id为name</span>的子节点，这个子节点会替代默认的文字
+
+示例
+```html
+<poster-white id="poster_1">
+  <text style="color:red;" id="name"></text>
+</poster-white>
+
+<poster-shadow id="poster_2">
+  <text style="color:red;" id="name"></text>
+</poster-shadow>
+```
+
+注：这里id为name的节点，width、height、line-height会被内部覆盖，其他属性生效
