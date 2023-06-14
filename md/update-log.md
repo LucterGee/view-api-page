@@ -153,3 +153,7 @@
 
 * 存在异常退出app，cookie中保留了一些page信息，导致重新进入app时默认回到page
 * 在外部进入app时，往往都是指定页面，所以需要根据实际情况来判断
+
+#### 0.6.6 在page中集成一个toast
+
+* 类似LogView,在每个Page实例中自带一个Toast
